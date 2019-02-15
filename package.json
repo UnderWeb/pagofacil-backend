@@ -1,0 +1,27 @@
+{
+  "name": "pagofacil",
+  "version": "1.0.0",
+  "description": "Prueba técnica Api Rest PagoFácil",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Palma",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "mongoose": "^5.4.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.18.10"
+  }
+}
